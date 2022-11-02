@@ -1,0 +1,95 @@
+@mixin flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@mixin flex-between {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about-me-container{
+    .about-me-header{
+        @include flex-between();
+        .about-me-links{
+            @include flex-between();
+            width: 100%
+        }
+        .polygon-icon{
+            @include flex-center();
+        }
+    }
+    .about-me{
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 129.02%;
+        text-align: center;
+        color: #FFFFFF;
+        padding-bottom: 51px;
+        border-bottom: 1px solid #FFFFFF;
+    }
+    .skills-container{
+        h2{
+            font-weight: 600;
+            font-size: 32px;
+            line-height: 115.02%;
+            letter-spacing: -0.075em;
+            color: #FFFFFF;
+        }
+        .skills{
+            p{
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 140.02%;
+                letter-spacing: -0.075em;
+            }
+        }
+    }
+    .experience-section{
+        margin-top: 128px;
+        .experience-card-section{
+            display: flex;
+            flex-direction: column;
+            gap: 25px;
+        }
+    }
+    .education-section{
+        margin-top: 128px;
+        margin-bottom: 200px;
+        .education-list{
+            ul{
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 140.02%;
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+            }
+        }
+    }
+}
+
+@media (min-width: 800px) {
+    .about-me-container{
+        .about-me-header{
+            flex-direction: column;
+            .polygon-icon{
+                margin-bottom: 30px;
+            }
+        }
+        .about-me{
+            font-size: 24px;
+        }
+        h2{
+            font-size: 36px;
+        }
+        .education-section{
+            .education-list{
+                ul{
+                    font-size: 24px;
+                }
+            }
+        }
+    }
+}

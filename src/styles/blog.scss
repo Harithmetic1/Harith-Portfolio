@@ -1,0 +1,38 @@
+@mixin flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@mixin flex-between {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.my-blog-container{
+    .my-blog-header{
+        .my-blog-links{
+            @include flex-between();
+        }
+        .ellipse-icon{
+            @include flex-center();
+        }
+    }
+    .my-blog{
+        .my-blog-caption{
+            p{
+                @include flex-center();
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 129.02%;
+                text-align: center;
+                letter-spacing: -0.075em;
+            }
+        }
+    }
+    .grid-section{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+        justify-items: center;
+    }
+}

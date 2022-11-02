@@ -1,0 +1,68 @@
+@mixin flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-container{
+    .hello{
+        @include flex-center;
+        h2{
+            position: relative;
+            height: 110px;
+            @include flex-center();
+            align-items: flex-end;
+            .polygon{
+                position: absolute;
+                top: -10px;
+                left: -50px;
+            }
+        }
+        
+    }
+    .home-caption{
+        @include flex-center();
+        h1{
+            text-align: center;
+            margin: 0px;
+        }
+    }
+    .page-links-container{
+        margin-top: 64px;
+        @include flex-center();
+        flex-wrap: wrap;
+        gap: 38px;
+        .page-links{
+            padding: 16.45px 36.94px;      
+            border: 0.901961px solid #FFFFFF;
+            border-radius: 51.4118px;
+            a{
+                font-weight: 400;
+                font-size: 24px;
+                line-height: 41px;
+                color: white;
+                text-decoration: none;
+            }
+        }
+        .middle-link{
+            margin-left: 30px;
+        }
+    }
+    .home-rectangle{
+        margin-top: 61px;
+        @include flex-center();
+    }
+}
+
+@media (min-width: 800px) {
+    .home-container{
+        .page-links-container{
+            .page-links{
+                padding: 20px 51.4118px;
+            }
+            .middle-link{
+                margin: 0px;
+            }
+        }
+    }
+}

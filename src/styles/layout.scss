@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+
+@mixin flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin flex-between {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+body{
+    background-color: #000000;
+    font-family: 'Source Code Pro', monospace;
+}
+
+main{
+    color: white;
+    padding: 40px 21px;
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        h1{
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 28px;
+            letter-spacing: -0.075em;
+            color: white;
+        }
+        .hamburger-menu{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            color: white;
+            div{
+                width: 27.5px;
+                height: 2px;
+                color: white;
+            }
+        }
+    }
+    footer{
+        border-top: 1px solid #FFFFFF;
+        margin-top: 40px;
+        width: 100%;
+        @include flex-between();
+        flex-direction: column;
+        color: white;
+        .footer-header{
+            font-style: normal;
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 115.02%;
+            color: #FFFFFF;
+        }
+        .footer-links{
+            @include flex-center();
+            width: 100%;
+            flex-direction: row-reverse;
+            flex-wrap: wrap;
+            .email{
+                a{
+                    font-weight: 300;
+                    font-size: 24px;
+                    line-height: 115.02%;
+                    color: #FFFFFF;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 799px) {
+    main{
+        footer{
+            .footer-links{
+                gap: 24px;
+            }
+        }
+    }
+}
+
+@media (min-width: 800px) {
+    main{
+        padding: 87.5px 119px 40px;
+        .navbar{
+            h1{
+                font-weight: 400;
+                font-size: 36px;
+                line-height: 41px;
+                letter-spacing: -0.075em;
+            }
+        }
+        footer{
+            .footer-links{
+                @include flex-between();
+            }
+        }
+    }
+}

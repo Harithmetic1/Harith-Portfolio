@@ -1,0 +1,25 @@
+@mixin flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@mixin flex-between {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.works-container{
+    .works-header{
+        @include flex-between();
+    }
+    .projects-container{
+        margin-top: 50px;
+        .project-card-container{
+            &:nth-child(even){
+                flex-direction: row-reverse;
+            }
+        }
+        
+    }
+}

@@ -6,7 +6,7 @@ import { Link } from "gatsby";
 import "../styles/home.scss";
 
 // Images
-import polygon from "../images/polygon.svg";
+import polygon from "../images/Polygon.svg";
 import homeRectangle from "../images/home-rectangle.svg";
 
 // markup

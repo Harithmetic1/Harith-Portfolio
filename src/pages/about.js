@@ -2,7 +2,7 @@ import React from "react";
 import ButtonLink from "../components/ButtonLink";
 import ExperienceCard from "../components/ExperienceCard";
 import Layout from "../components/Layout";
-import polygon from "../images/polygon.svg";
+import polygon from "../images/Polygon.svg";
 
 // Style
 import "../styles/about.scss";

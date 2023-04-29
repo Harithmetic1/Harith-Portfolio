@@ -1,5 +1,5 @@
 import React, { useEffect, useContext } from "react";
-import { StateContext, SetStateContext } from "../context/BlogContext";
+import { SetStateContext } from "../context/BlogContext";
 
 function Image({ social_image, title }) {
   const { setIsLoaded } = useContext(SetStateContext);
@@ -12,7 +12,7 @@ function Image({ social_image, title }) {
       setIsLoaded(false);
       console.log(`Image: ${social_image} loaded`);
     };
-  }, [social_image]);
+  }, [social_image, setIsLoaded]);
 
   return <img src={social_image} alt={title} />;
 }

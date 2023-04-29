@@ -22,7 +22,6 @@ function MouseFollow() {
     const linkTags = document.links;
     console.log(linkTags);
 
-    
     if (linkTags.length > 0) {
       linkTags.forEach((link) => {
         console.log("The linked list => ", link);
@@ -37,7 +36,6 @@ function MouseFollow() {
       });
     }
   };
-
 
   useEffect(() => {
     moveMouse();

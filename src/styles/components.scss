@@ -9,6 +9,8 @@
     justify-content: space-between;
 }
 
+
+
 // Mouse Follow
 .mouse-cursor{
     @include flex-center();
@@ -37,6 +39,12 @@
     transform: scale(1.5);
     background-color: transparent;
     border: 1px solid white;
+}
+
+@media (max-width: 800px){
+    .mouse-cursor{
+        display: none;
+    }
 }
 
 // Menu styling

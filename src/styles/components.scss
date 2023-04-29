@@ -9,6 +9,36 @@
     justify-content: space-between;
 }
 
+// Mouse Follow
+.mouse-cursor{
+    @include flex-center();
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    border-color: #FFFFFF;
+    border: 2px solid white;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 100;
+    mix-blend-mode: difference;
+    pointer-events: none;
+    backdrop-filter: grayscale(grey);
+    // transition: all 0.1s ease-in;
+    .cursor-point{
+        width: 5px;
+        height: 5px;
+        background-color: white;
+        border-radius: 50%;
+    }
+}
+
+.mouse-hover{
+    transform: scale(1.5);
+    background-color: transparent;
+    border: 1px solid white;
+}
+
 // Menu styling
 .menu-container{
     overflow: none;

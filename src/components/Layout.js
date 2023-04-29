@@ -6,10 +6,11 @@ import twitterIcon from "../images/social-links/TwitterLogo.svg";
 import linkedinIcon from "../images/social-links/LinkedinLogo.svg";
 import githubIcon from "../images/social-links/GithubLogo.svg";
 import Menu from "./Menu";
-import { AnimatePresence } from "framer-motion";
+import MouseFollow from "./MouseFollow";
 
 const Layout = ({ pageTitle, children }) => {
   const [revealMenu, setRevealMenu] = useState(false);
+  const [isloaded, setIsLoaded] = useState(false);
 
   const showMenu = () => {
     setRevealMenu(true);
@@ -20,6 +21,7 @@ const Layout = ({ pageTitle, children }) => {
       <title>{pageTitle}</title>
       <main>
         <Menu revealMenu={revealMenu} setRevealMenu={setRevealMenu} />
+        <MouseFollow />
         <div className="navbar">
           <h1>Harith</h1>
           <div className="hamburger-menu" onClick={() => showMenu()}>

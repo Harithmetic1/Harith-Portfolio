@@ -19,7 +19,7 @@ const about = () => {
       id: 2,
       organisation: "Acumen Digital",
       title: "Software Engineer Intern",
-      duration: "Mar 2022 - Present",
+      duration: "Mar 2022 - Nov 2022",
     },
     {
       id: 3,
@@ -51,9 +51,12 @@ const about = () => {
           </div>
           <div className="about-me">
             <p>
-              Hello there, I'm Harith, a Frontend Developer currently studying
-              in Dubai, I love implementing beautiful UI designs and find
-              pleasure in bringing my client's ideas to life using technology.
+              Hi, I'm Harith, a Dubai-based Frontend Developer. I specialize in
+              crafting stunning and intuitive user interfaces that deliver
+              exceptional user experiences. With a keen eye for detail and a
+              passion for technology, I bring my clients' ideas to life using
+              the latest coding standards and best practices. Let's work
+              together to create something great!
             </p>
           </div>
           <div className="skills-container">
@@ -77,8 +80,11 @@ const about = () => {
             <h2>Education</h2>
             <div className="education-list">
               <ul>
-                <li>Middlesex University Dubai/ 2020 - Present</li>
-                <li>University of Lagos/ 2018 - 2020</li>
+                <li>
+                  Middlesex University Dubai / Computer Systems Engineering /
+                  2020 - Present
+                </li>
+                <li>University of Lagos / Systems Engineering / 2018 - 2020</li>
               </ul>
             </div>
           </div>

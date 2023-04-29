@@ -1,5 +1,6 @@
-import React from "react";
+import React, { useState } from "react";
 import BlogArrowLink from "../images/blogArrowLink.svg";
+import Image from "./Image";
 
 // Style
 import "../styles/components.scss";
@@ -9,7 +10,8 @@ function BlogCard({ canonical_url, title, social_image, type_of }) {
     <div className="blog-card-container">
       <div className="blog-card-image">
         <a href={canonical_url} target="_blank" rel="noreferrer">
-          <img src={social_image} alt={title} />
+          {/* <img src={social_image} alt={title} /> */}
+          <Image social_image={social_image} title={title} />
         </a>
       </div>
       <div className="blog-card-content">

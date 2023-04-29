@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import ButtonLink from "../components/ButtonLink";
 import Layout from "../components/Layout";
 
@@ -9,7 +9,7 @@ import "../styles/works.scss";
 import tilde from "../images/tilde.svg";
 import ProjectCard from "../components/ProjectCard";
 
-const works = () => {
+const Works = () => {
   const projects = [
     {
       id: 0,
@@ -134,4 +134,4 @@ const works = () => {
   );
 };
 
-export default works;
+export default Works;

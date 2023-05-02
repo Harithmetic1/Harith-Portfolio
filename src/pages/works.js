@@ -78,8 +78,8 @@ const Works = () => {
       techStack: ["React", "CSS", "Axios"],
       projectDescription:
         "When I started learning React JS, I created this weather app to understand how to call Rest APIs with React. I remember using only class components because I didn't understand how hooks worked then. I also made it a PWA; I had so much fun working on this project :D",
-      liveLink: "https://alium-resume.herokuapp.com/dashboard/",
-      githubLink: "https://github.com/Efico-Resources/Efico-React",
+      liveLink: "https://harithmetic1.github.io/React-weather-app/",
+      githubLink: "https://github.com/Harithmetic1/React-weather-app",
     },
     {
       id: 7,

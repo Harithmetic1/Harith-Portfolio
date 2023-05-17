@@ -6,6 +6,7 @@ import polygon from "../images/Polygon.svg";
 
 // Style
 import "../styles/about.scss";
+import AnimatedLinkContainer from "../components/AnimatedLinkContainer";
 
 const about = () => {
   const experienceFields = [
@@ -45,9 +46,11 @@ const about = () => {
               <h1>About me</h1>
               <ButtonLink btnName={"My blog"} to="/blog" />
             </div>
-            <div className="polygon-icon">
-              <img src={polygon} alt="Polygon" />
-            </div>
+            <AnimatedLinkContainer>
+              <div className="polygon-icon">
+                <img src={polygon} alt="Polygon" />
+              </div>
+            </AnimatedLinkContainer>
           </div>
           <div className="about-me">
             <p>

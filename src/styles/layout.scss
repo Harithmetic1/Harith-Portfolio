@@ -27,11 +27,15 @@ main{
         justify-content: space-between;
         align-items: center;
         h1{
-            font-weight: 400;
-            font-size: 24px;
-            line-height: 28px;
-            letter-spacing: -0.075em;
-            color: white;
+            a{
+                font-weight: 400;
+                font-size: 24px;
+                line-height: 28px;
+                letter-spacing: -0.075em;
+                color: white;
+                text-decoration: none;
+            }
+            
         }
         .hamburger-menu{
             display: flex;

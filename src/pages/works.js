@@ -8,6 +8,7 @@ import "../styles/works.scss";
 // Images
 import tilde from "../images/tilde.svg";
 import ProjectCard from "../components/ProjectCard";
+import AnimatedLinkContainer from "../components/AnimatedLinkContainer";
 
 const Works = () => {
   const projects = [
@@ -25,7 +26,7 @@ const Works = () => {
       id: 1,
       projectName: "Logistics App",
       imgSrc: "logistics-app",
-      techStack: ["NuxtJS", "Axios", "GMaps API", "VueX", "SCSS"],
+      techStack: ["NuxtJS", "GMaps API", "SCSS"],
       projectDescription:
         "Trying to send a package to a loved one? This app allows you to request or send package locally or internationally. The app served as a design solution to a logistic company looking to expand their services.",
       liveLink: "https://interns-logistics-app.netlify.app/",
@@ -35,7 +36,7 @@ const Works = () => {
       id: 2,
       projectName: "Learnovate",
       imgSrc: "learnovate",
-      techStack: ["NextJS", "React", "CSS"],
+      techStack: ["NextJS", "Redux", "CSS"],
       projectDescription:
         "Learnovate is a startup launched by a group of passionate students innovating the learning experience; we plan on executing our goal by incorporating the power of technology in the way people learn new concepts.",
       liveLink: "https://learnovate.xyz/",
@@ -119,7 +120,9 @@ const Works = () => {
           <div className="works-header">
             <h1>My Works</h1>
             <div className="tilde">
-              <img src={tilde} alt="tilde" />
+              <AnimatedLinkContainer>
+                <img src={tilde} alt="tilde" />
+              </AnimatedLinkContainer>
             </div>
             <ButtonLink btnName={"About me"} to="/about" />
           </div>

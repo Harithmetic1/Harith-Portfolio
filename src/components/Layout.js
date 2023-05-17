@@ -7,6 +7,8 @@ import linkedinIcon from "../images/social-links/LinkedinLogo.svg";
 import githubIcon from "../images/social-links/GithubLogo.svg";
 import Menu from "./Menu";
 import MouseFollow from "./MouseFollow";
+// import Harith from "./Harith";
+import { Link } from "gatsby";
 
 const Layout = ({ pageTitle, children }) => {
   const [revealMenu, setRevealMenu] = useState(false);
@@ -23,7 +25,10 @@ const Layout = ({ pageTitle, children }) => {
         <Menu revealMenu={revealMenu} setRevealMenu={setRevealMenu} />
         <MouseFollow />
         <div className="navbar">
-          <h1>Harith</h1>
+          <h1>
+            <Link to="/">Harith</Link>
+            {/* <Harith /> */}
+          </h1>
           <div className="hamburger-menu" onClick={() => showMenu()}>
             <img src={hamburgerIcon} alt="hamburger-menu" />
           </div>

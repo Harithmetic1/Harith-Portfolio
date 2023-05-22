@@ -16,7 +16,7 @@ const Works = () => {
       id: 0,
       projectName: "Ajo Travels",
       imgSrc: "ajo-project-screenshot",
-      techStack: ["NuxtJS", "Axios", "GCP", "VueX", "SCSS"],
+      techStack: ["NuxtJS", "GCP", "VueX"],
       projectDescription:
         "A web app that serves as a travel guide for users. We used the Google maps API to render information about places users would like to visit.",
       liveLink: "https://ajo-travels.vercel.app/",

@@ -13,6 +13,16 @@ import AnimatedLinkContainer from "../components/AnimatedLinkContainer";
 const Works = () => {
   const projects = [
     {
+      id: 4,
+      projectName: "Efico Resources",
+      imgSrc: "efico-resources",
+      techStack: ["React", "CSS"],
+      projectDescription:
+        "I was opportune to volunteer as the technology lead for this EdTech organisation. I helped them launch their website's first and second versions alongside some talented teammates. They use the website to tell the world about their incredible mission to help students discover their strengths and abilities and push their Save the Climate Project.",
+      liveLink: "https://eficoresource.com/",
+      githubLink: "https://github.com/Efico-Resources/Efico-React",
+    },
+    {
       id: 0,
       projectName: "Ajo Travels",
       imgSrc: "ajo-project-screenshot",
@@ -52,26 +62,17 @@ const Works = () => {
       liveLink: "https://elephantom-vue.vercel.app/",
       githubLink: "https://github.com/Harithmetic1/Elephantom-Vue",
     },
-    {
-      id: 4,
-      projectName: "Efico Resources",
-      imgSrc: "efico-resources",
-      techStack: ["React", "CSS"],
-      projectDescription:
-        "I was opportune to volunteer as the technology lead for this EdTech organisation. I helped them launch their website's first and second versions alongside some talented teammates. They use the website to tell the world about their incredible mission to help students discover their strengths and abilities and push their Save the Climate Project.",
-      liveLink: "https://eficoresource.com/",
-      githubLink: "https://github.com/Efico-Resources/Efico-React",
-    },
-    {
-      id: 5,
-      projectName: "Alium Resume Builder",
-      imgSrc: "Alium-resume-builder",
-      techStack: ["HTML", "CSS", "JS"],
-      projectDescription:
-        "I remember my first hackathon with Ingressive For Good, we were tasked to build a resume builder within two weeks, and my team made this project our solution. We came out second in the hackathon. It was an incredible experience :)",
-      liveLink: "https://alium-resume.herokuapp.com/dashboard/",
-      githubLink: "https://github.com/Efico-Resources/Efico-React",
-    },
+
+    // {
+    //   id: 5,
+    //   projectName: "Alium Resume Builder",
+    //   imgSrc: "Alium-resume-builder",
+    //   techStack: ["HTML", "CSS", "JS"],
+    //   projectDescription:
+    //     "I remember my first hackathon with Ingressive For Good, we were tasked to build a resume builder within two weeks, and my team made this project our solution. We came out second in the hackathon. It was an incredible experience :)",
+    //   liveLink: "https://alium-resume.herokuapp.com/dashboard/",
+    //   githubLink: "https://github.com/Efico-Resources/Efico-React",
+    // },
     {
       id: 6,
       projectName: "React Weather App",

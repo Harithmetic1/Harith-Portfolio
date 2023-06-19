@@ -7,7 +7,7 @@
 .home-container{
     .hello{
         @include flex-center;
-        h2{
+        h1{
             position: relative;
             height: 110px;
             @include flex-center();
@@ -22,7 +22,7 @@
     }
     .home-caption{
         @include flex-center();
-        h1{
+        h2{
             text-align: center;
             margin: 0px;
         }

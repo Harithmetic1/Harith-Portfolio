@@ -8,6 +8,7 @@ import "../styles/home.scss";
 // Images
 import polygon from "../images/Polygon.svg";
 import homeRectangle from "../images/home-rectangle.svg";
+import AnimatedLinkContainer from "../components/AnimatedLinkContainer";
 
 // markup
 const IndexPage = () => {
@@ -16,15 +17,15 @@ const IndexPage = () => {
       <Layout pageTitle={"Harith's Portfolio"}>
         <div className="home-container">
           <div className="hello">
-            <h2>
+            <h1>
               <div className="polygon">
                 <img src={polygon} alt="polygon" />
               </div>
               Hello, I’m Harith
-            </h2>
+            </h1>
           </div>
           <div className="home-caption">
-            <h1>Frontend Developer with skills in Vue and React;</h1>
+            <h2>Frontend Developer with skills in Vue and React;</h2>
           </div>
           <div className="page-links-container">
             <div className="page-links">

@@ -11,6 +11,12 @@ import AnimatedLinkContainer from "../components/AnimatedLinkContainer";
 const about = () => {
   const experienceFields = [
     {
+      id: 0,
+      organisation: "Middlesex Computing Society",
+      title: "President",
+      duration: "Oct 2022 - Present",
+    },
+    {
       id: 1,
       organisation: "Google Developer Student Club, MDX Dubai",
       title: "Frontend and Flutter Head",

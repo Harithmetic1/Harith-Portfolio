@@ -13,6 +13,16 @@ import AnimatedLinkContainer from "../components/AnimatedLinkContainer";
 const Works = () => {
   const projects = [
     {
+      id: 10,
+      projectName: "Swave - Errand App",
+      imgSrc: "swave",
+      techStack: [, "Next.js", "TypeScript", "Tailwind CSS"],
+      projectDescription:
+        "I recently had the opportunity to work for these amazing peope at Swave. I worked on the frontend of their errand app. I used Next.js, TypeScript, Redux Toolkit, Tailwind CSS and Chakra UI to build the app. I also worked with a team of talented developers. It was an amazing experience. Y'all should watch out for this app, it's going to be a game changer.",
+      liveLink: "https://staging.swave.ng/",
+      githubLink: "https://github.com/GoferDevTeam/ErrandAppWeb",
+    },
+    {
       id: 4,
       projectName: "Efico Resources",
       imgSrc: "efico-resources",

@@ -11,6 +11,12 @@ import AnimatedLinkContainer from "../components/AnimatedLinkContainer";
 const about = () => {
   const experienceFields = [
     {
+      id: 5,
+      organisation: "Exemplar Projects Consort",
+      title: "Frontend Developer Intern",
+      duration: "Aug 2023 - October 2023",
+    },
+    {
       id: 0,
       organisation: "Middlesex Computing Society",
       title: "President",

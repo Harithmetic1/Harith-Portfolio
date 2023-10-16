@@ -30,6 +30,15 @@ function Menu({ revealMenu, setRevealMenu }) {
             <li>
               <Link to="/blog">Blog</Link>
             </li>
+            <li>
+              <a
+                download={"Harith Onigemo's Resume"}
+                href="../../Harith Onigemo 2023.pdf"
+                className="Resume"
+              >
+                Resume
+              </a>
+            </li>
           </ul>
         </div>
       </div>

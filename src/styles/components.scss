@@ -203,6 +203,7 @@
             flex-direction: column-reverse;
             .stack{
                 display: flex;
+                flex-wrap: wrap;
                 align-items: center;
                 gap: 26px;
                 justify-content: space-between;

@@ -42,7 +42,10 @@ const Blog = () => {
             <div className="my-blog-header">
               <div className="my-blog-links">
                 <h1>My Blog</h1>
-                <ButtonLink btnName={"Home"} to="/" />
+                <ButtonLink
+                  btnName={"Uni Blog"}
+                  to="https://harith-blog.vercel.app/"
+                />
               </div>
               {isLoadedArticles || isLoadedYouTube || contextData ? (
                 <motion.div

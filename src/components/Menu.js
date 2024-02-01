@@ -39,6 +39,11 @@ function Menu({ revealMenu, setRevealMenu }) {
                 Resume
               </a>
             </li>
+            <li>
+              <a href="https://harith-blog.vercel.app/" className="school-blog">
+                Uni Blog
+              </a>
+            </li>
           </ul>
         </div>
       </div>

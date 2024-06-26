@@ -33,7 +33,7 @@ function Menu({ revealMenu, setRevealMenu }) {
             <li>
               <a
                 download={"Harith Onigemo's Resume"}
-                href="../../Harith Onigemo 2023.pdf"
+                href="../../Harith Onigemo 2024.pdf"
                 className="Resume"
               >
                 Resume

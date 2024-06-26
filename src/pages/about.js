@@ -11,6 +11,18 @@ import AnimatedLinkContainer from "../components/AnimatedLinkContainer";
 const about = () => {
   const experienceFields = [
     {
+      id: 7,
+      organisation: "Key One Realty Group",
+      title: "Full Stack Developer",
+      duration: "May 2024 - Present",
+    },
+    {
+      id: 6,
+      organisation: "Key One Realty Group",
+      title: "Web Developer Intern",
+      duration: "Dec 2023 - May 2024",
+    },
+    {
       id: 5,
       organisation: "Exemplar Projects Consort",
       title: "Frontend Developer Intern",
@@ -20,13 +32,13 @@ const about = () => {
       id: 0,
       organisation: "Middlesex Computing Society",
       title: "President",
-      duration: "Oct 2022 - Present",
+      duration: "Oct 2022 - May 2024",
     },
     {
       id: 1,
       organisation: "Google Developer Student Club, MDX Dubai",
       title: "Frontend and Flutter Head",
-      duration: "Sep 2022 - Present",
+      duration: "Sep 2022 - may 2023",
     },
     {
       id: 2,
@@ -97,7 +109,7 @@ const about = () => {
               <ul>
                 <li>
                   Middlesex University Dubai / Computer Systems Engineering /
-                  2020 - Present
+                  2021 - 2024
                 </li>
                 <li>University of Lagos / Systems Engineering / 2018 - 2020</li>
               </ul>

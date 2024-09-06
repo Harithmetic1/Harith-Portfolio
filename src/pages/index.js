@@ -8,7 +8,6 @@ import "../styles/home.scss";
 // Images
 import polygon from "../images/Polygon.svg";
 import homeRectangle from "../images/home-rectangle.svg";
-import AnimatedLinkContainer from "../components/AnimatedLinkContainer";
 
 // markup
 const IndexPage = () => {

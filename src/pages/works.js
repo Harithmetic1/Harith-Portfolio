@@ -28,13 +28,7 @@ const Works = () => {
       id: 12,
       projectName: "Dxberience",
       imgSrc: "dxberience",
-      techStack: [
-        "Next.js",
-        "JavaScript",
-        "Tailwind CSS",
-        "Sanity",
-        "Shadcn/ui",
-      ],
+      techStack: ["Next.js", "Tailwind", "Sanity"],
       projectDescription:
         "A website made for a luxury concierge startup based in Dubai, they offer lixurious concierge services and this website helps them get closer to their customers by expressing their taste in luxury and concierge.",
       liveLink: "https://www.thedxberience.com/",
@@ -44,7 +38,7 @@ const Works = () => {
       id: 11,
       projectName: "Maash Engineering",
       imgSrc: "maash-engineering",
-      techStack: ["Next.js", "JavaScript", "Tailwind CSS"],
+      techStack: ["NextJs", "JavaScript", "Tailwind"],
       projectDescription:
         "An upgraded website made for a small Nigerian company dealing with renting equipments. My team reached out to this company to help them upgrade their website from an ancient website to a more powerful and modern website equipped with state of the art tech.",
       liveLink: "https://staging.swave.ng/",
@@ -54,7 +48,7 @@ const Works = () => {
       id: 10,
       projectName: "Swave - Errand App",
       imgSrc: "swave",
-      techStack: [, "Next.js", "TypeScript", "Tailwind CSS"],
+      techStack: ["NextJs", "TypeScript", "Tailwind"],
       projectDescription:
         "I recently had the opportunity to work for these amazing peope at Swave. I worked on the frontend of their errand app. I used Next.js, TypeScript, Redux Toolkit, Tailwind CSS and Chakra UI to build the app. I also worked with a team of talented developers. It was an amazing experience. Y'all should watch out for this app, it's going to be a game changer.",
       liveLink: "https://staging.swave.ng/",

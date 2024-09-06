@@ -50,7 +50,7 @@ const Works = () => {
       imgSrc: "swave",
       techStack: ["NextJs", "TypeScript", "Tailwind"],
       projectDescription:
-        "I recently had the opportunity to work for these amazing peope at Swave. I worked on the frontend of their errand app. I used Next.js, TypeScript, Redux Toolkit, Tailwind CSS and Chakra UI to build the app. I also worked with a team of talented developers. It was an amazing experience. Y'all should watch out for this app, it's going to be a game changer.",
+        "I recently had the opportunity to work for these amazing people at Swave. I worked on the frontend of their errand app. I used Next.js, TypeScript, Redux Toolkit, Tailwind CSS and Chakra UI to build the app. I also worked with a team of talented developers. It was an amazing experience. Y'all should watch out for this app, it's going to be a game changer.",
       liveLink: "https://staging.swave.ng/",
       githubLink: "https://github.com/GoferDevTeam/ErrandAppWeb",
     },

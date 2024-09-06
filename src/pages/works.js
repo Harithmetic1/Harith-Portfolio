@@ -13,6 +13,44 @@ import AnimatedLinkContainer from "../components/AnimatedLinkContainer";
 const Works = () => {
   const projects = [
     {
+      id: 13,
+      projectName: "Landlord Connect: Short Term App",
+      imgSrc: "landlord-connect",
+      techStack: ["Flutter", "Laravel", "MySql"],
+      projectDescription:
+        "A mobile app made for holiday homes landlords of a real estate company. The app allows the landlords to view bookings, statements and assess their property financials, built for android and IOS, view the app on App store in the link above.",
+      liveLink:
+        "https://apps.apple.com/ae/app/landlord-connect-short-term/id6504141703",
+      githubLink:
+        "https://github.com/key-one-realty/Holiday-homes-landlord-portal",
+    },
+    {
+      id: 12,
+      projectName: "Dxberience",
+      imgSrc: "dxberience",
+      techStack: [
+        "Next.js",
+        "JavaScript",
+        "Tailwind CSS",
+        "Sanity",
+        "Shadcn/ui",
+      ],
+      projectDescription:
+        "A website made for a luxury concierge startup based in Dubai, they offer lixurious concierge services and this website helps them get closer to their customers by expressing their taste in luxury and concierge.",
+      liveLink: "https://www.thedxberience.com/",
+      githubLink: "https://github.com/thedxberience/dxberience-frontend-v2",
+    },
+    {
+      id: 11,
+      projectName: "Maash Engineering",
+      imgSrc: "maash-engineering",
+      techStack: ["Next.js", "JavaScript", "Tailwind CSS"],
+      projectDescription:
+        "An upgraded website made for a small Nigerian company dealing with renting equipments. My team reached out to this company to help them upgrade their website from an ancient website to a more powerful and modern website equipped with state of the art tech.",
+      liveLink: "https://staging.swave.ng/",
+      githubLink: "https://github.com/Harithmetic1/maash-engineering",
+    },
+    {
       id: 10,
       projectName: "Swave - Errand App",
       imgSrc: "swave",
@@ -53,16 +91,6 @@ const Works = () => {
       githubLink: "https://github.com/acumendigital/interns-logistics-app",
     },
     {
-      id: 2,
-      projectName: "Learnovate",
-      imgSrc: "learnovate",
-      techStack: ["NextJS", "Redux", "CSS"],
-      projectDescription:
-        "Learnovate is a startup launched by a group of passionate students innovating the learning experience; we plan on executing our goal by incorporating the power of technology in the way people learn new concepts.",
-      liveLink: "https://learnovate.xyz/",
-      githubLink: "https://github.com/Learnovate-xyz/learnovate-student",
-    },
-    {
       id: 3,
       projectName: "Elephantom",
       imgSrc: "elephantom-vue",
@@ -72,17 +100,6 @@ const Works = () => {
       liveLink: "https://elephantom-vue.vercel.app/",
       githubLink: "https://github.com/Harithmetic1/Elephantom-Vue",
     },
-
-    // {
-    //   id: 5,
-    //   projectName: "Alium Resume Builder",
-    //   imgSrc: "Alium-resume-builder",
-    //   techStack: ["HTML", "CSS", "JS"],
-    //   projectDescription:
-    //     "I remember my first hackathon with Ingressive For Good, we were tasked to build a resume builder within two weeks, and my team made this project our solution. We came out second in the hackathon. It was an incredible experience :)",
-    //   liveLink: "https://alium-resume.herokuapp.com/dashboard/",
-    //   githubLink: "https://github.com/Efico-Resources/Efico-React",
-    // },
     {
       id: 6,
       projectName: "React Weather App",

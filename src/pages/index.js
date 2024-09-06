@@ -25,7 +25,10 @@ const IndexPage = () => {
             </h1>
           </div>
           <div className="home-caption">
-            <h2>Frontend Developer with skills in Vue and React;</h2>
+            <h2>
+              Fullstack Developer with skills to help make your dreams come true
+              {" ;)"}
+            </h2>
           </div>
           <div className="page-links-container">
             <div className="page-links">

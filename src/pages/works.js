@@ -25,6 +25,22 @@ const Works = () => {
         "https://github.com/key-one-realty/Holiday-homes-landlord-portal",
     },
     {
+      id: 12,
+      projectName: "Dxberience",
+      imgSrc: "dxberience",
+      techStack: [
+        "Next.js",
+        "JavaScript",
+        "Tailwind CSS",
+        "Sanity",
+        "Shadcn/ui",
+      ],
+      projectDescription:
+        "A website made for a luxury lifestyle management startup based in Dubai, they offer luxurious lifestyle management services and this website helps them get closer to their customers by expressing their taste in luxury and lifestyle management.",
+      liveLink: "https://www.thedxberience.com/",
+      githubLink: "https://github.com/thedxberience/dxberience-frontend-v2",
+    },
+    {
       id: 11,
       projectName: "Maash Engineering",
       imgSrc: "maash-engineering",

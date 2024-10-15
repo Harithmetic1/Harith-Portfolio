@@ -211,6 +211,11 @@
                     display: flex;
                     flex-direction: row;
                     gap: 8px;
+                    max-width: 50svw;
+                    overflow-x: auto;
+                    &::-webkit-scrollbar{
+                        display: none
+                    }
                 }
                 .tech-links{
                     display: flex;

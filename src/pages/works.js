@@ -28,13 +28,7 @@ const Works = () => {
       id: 12,
       projectName: "Dxberience",
       imgSrc: "dxberience",
-      techStack: [
-        "Next.js",
-        "JavaScript",
-        "Tailwind CSS",
-        "Sanity",
-        "Shadcn/ui",
-      ],
+      techStack: ["NextJS", "NestJs", "Tailwind", "Sanity"],
       projectDescription:
         "A website made for a luxury lifestyle management startup based in Dubai, they offer luxurious lifestyle management services and this website helps them get closer to their customers by expressing their taste in luxury and lifestyle management.",
       liveLink: "https://www.thedxberience.com/",

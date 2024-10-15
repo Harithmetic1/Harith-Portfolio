@@ -12,13 +12,13 @@ const about = () => {
   const experienceFields = [
     {
       id: 7,
-      organisation: "Key One Realty Group",
+      organisation: "Keyone",
       title: "Full Stack Developer",
       duration: "May 2024 - Present",
     },
     {
       id: 6,
-      organisation: "Key One Realty Group",
+      organisation: "Keyone",
       title: "Web Developer Intern",
       duration: "Dec 2023 - May 2024",
     },
@@ -38,7 +38,7 @@ const about = () => {
       id: 1,
       organisation: "Google Developer Student Club, MDX Dubai",
       title: "Frontend and Flutter Head",
-      duration: "Sep 2022 - may 2023",
+      duration: "Sep 2022 - May 2023",
     },
     {
       id: 2,
@@ -54,7 +54,7 @@ const about = () => {
     },
     {
       id: 4,
-      organisation: "Google Developer Student Club, UNILAG Chapter",
+      organisation: "Google Developer Student Club, UNILAG",
       title: "JavaScript Tutor",
       duration: "Sep 2020 - Jan 2021",
     },
@@ -78,20 +78,21 @@ const about = () => {
           </div>
           <div className="about-me">
             <p>
-              Hi, I'm Harith, a Dubai-based Frontend Developer. I specialize in
-              crafting stunning and intuitive user interfaces that deliver
-              exceptional user experiences. With a keen eye for detail and a
-              passion for technology, I bring my clients' ideas to life using
-              the latest coding standards and best practices. Let's work
-              together to create something great!
+              Hi, I'm Harith, a Fullstack Developer with a passion for creating
+              high-performing, scalable web applications. I focus on delivering
+              seamless user experiences while adhering to modern coding
+              standards and best practices. From frontend interfaces to backend
+              systems, I turn innovative ideas into functional, well-architected
+              products. Let's collaborate to bring your vision to life!
             </p>
           </div>
           <div className="skills-container">
-            <h2>Skills</h2>
+            <h2>Tech I Use</h2>
             <div className="skils">
               <p>
-                /JavaScript /HTML & CSS /SCSS /React /Gatsby /Vue /Nuxt /VueX
-                /Flutter /Git /GitHub /Arduino /Python
+                /JavaScript /TypeScript /Python /PHP /HTML & CSS /Tailwind /Vue
+                /React /NextJs /Gatsby /Laravel /Express /Nest /Flutter /Git
+                /Arduino
               </p>
             </div>
           </div>

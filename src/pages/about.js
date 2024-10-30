@@ -91,8 +91,8 @@ const about = () => {
             <div className="skils">
               <p>
                 /JavaScript /TypeScript /Python /PHP /HTML & CSS /Tailwind /Vue
-                /React /NextJs /Gatsby /Laravel /Express /Nest /Flutter /Git
-                /Arduino
+                /React /NextJs /Gatsby /Astro /Laravel /Express /Nest /Flutter
+                /Git /Arduino
               </p>
             </div>
           </div>

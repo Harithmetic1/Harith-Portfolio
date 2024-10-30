@@ -40,7 +40,7 @@ const Works = () => {
       imgSrc: "maash-engineering",
       techStack: ["NextJs", "JavaScript", "Tailwind"],
       projectDescription:
-        "An upgraded website made for a small Nigerian company dealing with renting equipments. My team reached out to this company to help them upgrade their website from an ancient website to a more powerful and modern website equipped with state of the art tech.",
+        "An upgraded website made for a local Nigerian company dealing with renting equipments. My team reached out to this company to help them upgrade their website from an outdated website to a modern website equipped with state of the art tech.",
       liveLink: "https://www.maash-engineering.com/",
       githubLink: "https://github.com/Harithmetic1/maash-engineering",
     },
